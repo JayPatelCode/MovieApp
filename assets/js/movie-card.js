@@ -31,7 +31,7 @@ export function createMovieCard(movie) {
                 <span class="span">${vote_average.toFixed(1)}</span>
               </div>
              ${release_date ? `<div class="card-badge">${release_date.split("-")[0]}</div>` : ''}
-    
+            </div>
             <a href="./detail.html" class="card-btn" title="${title}" onclick="getMovieDetail(${id})"></a>
           
     `;
