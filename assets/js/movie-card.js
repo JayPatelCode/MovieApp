@@ -30,8 +30,8 @@ export function createMovieCard(movie) {
                 <img src="./assets/images/star.png" width="20" height="20" loading="lazy" alt="rating">
                 <span class="span">${vote_average.toFixed(1)}</span>
               </div>
-            <div class="card-badge">${release_date.split("-")[0]}</div>
-            </div>
+             ${release_date ? `<div class="card-badge">${release_date.split("-")[0]}</div>` : ''}
+    
             <a href="./detail.html" class="card-btn" title="${title}" onclick="getMovieDetail(${id})"></a>
           
     `;
