@@ -40,8 +40,10 @@ genreLink();
     <a href="./movie-list.html" menu-close 
     class="sidebar-link" onclick='getMovieList("with_original_language=en", "English" )'>English</a>
 
-    <a href="./movie-list.html" menu-close 
-    class="sidebar-link" onclick='getMovieList("with_original_language=hi", "Hindi")'>Hindi</a>
+    
+    <a href="./movie-list.html" menu-close
+    class="sidebar-link" onclick="getMovieList('with_original_language=hi', 'Hindi')">Hindi</a>
+
 
     <a href="./movie-list.html" menu-close 
     class="sidebar-link"  onclick='getMovieList("with_original_language=bn", "Bengali")'>Bengali</a>
